@@ -6,7 +6,8 @@ const ComponentsScreen = (props) => {
   return (
     <View>
       <Text style={styles.component}>Another Component</Text>
-      <Text style={styles.component}>{text}</Text>
+      {/* <Text style={styles.component}>{text}</Text> */}
+      {/* <CatComponent /> */}
     </View>
   );
 };
@@ -14,7 +15,7 @@ const ComponentsScreen = (props) => {
 const styles = StyleSheet.create({
   component: {
     textAlign: "center",
-    marginTop: 15
+    marginTop: 15,
   },
 });
 
