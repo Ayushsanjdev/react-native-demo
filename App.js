@@ -8,6 +8,7 @@ import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/ColorScreen";
 import SquareScreen from "./src/screens/SquareScreen";
 import ColorCounter from "./src/Container/ColorCounter";
+import TodoScreen from "./src/screens/TodoScreen";
 
 const navigator = createStackNavigator(
   {
@@ -18,7 +19,8 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     Colors: ColorScreen,
     Square: SquareScreen,
-    ColorCounter: ColorCounter
+    ColorCounter: ColorCounter,
+    Todo: TodoScreen
   },
   {
     initialRouteName: "Home", // here we can change the default route!

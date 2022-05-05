@@ -36,6 +36,10 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("Square")}
         title='Go to Square Screen'
       />
+      <Button
+        onPress={() => navigation.navigate("Todo")}
+        title='Go to Todo Screen'
+      />
     </ScrollView>
   );
 };
